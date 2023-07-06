@@ -51,10 +51,31 @@
 }
 .btn{
     padding: 10px 20px;
-    background-color: salmon;
+    background-color: rgb(1, 82, 44);
     color: black;
     cursor: pointer;
     font-size: 15px;
 }
 .btn:hover{
     color:wheat;
+}
+/*about section*/
+.about-img{
+    width: 400px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(207, 238, 233);
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(207, 238, 233);
+}
+.headline{
+    font-size: 45px;
+    font-weight: bold;
+}
