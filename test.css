@@ -4,7 +4,7 @@
 }
 /*navbar section*/
 .menu-container{
-    background-color: rgb(1, 58, 58);
+    background-color: rgb(54, 52, 53);
     padding: 5px;
     color: white;
     list-style: none;
@@ -35,7 +35,7 @@
     align-items: center;
     color:white;
     background-image: url("../digital-products/images/background.png"),
-    linear-gradient(45deg, #001d18, #013026 );
+    linear-gradient(45deg, #161516, #363536 );
 }
 .banner-img{
     width: 400px;
@@ -51,10 +51,11 @@
 }
 .btn{
     padding: 10px 20px;
-    background-color: rgb(1, 82, 44);
+    background-color: rgb(228, 8, 8);
     color: black;
     cursor: pointer;
     font-size: 15px;
+    border: none;
 }
 .btn:hover{
     color:wheat;
@@ -68,13 +69,13 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row-reverse;
-    background-color: rgb(207, 238, 233);
+    background-color: rgb(212, 208, 212);
 }
 .about-title{
     text-align: center;
     margin-top: 0px;
     padding-top: 20px;
-    background-color: rgb(207, 238, 233);
+    background-color: rgb(212, 210, 212);
 }
 .headline{
     font-size: 45px;
@@ -111,6 +112,20 @@
     height: 50vh;
     align-items: center;
     background-image: url("../digital-products/images/background.png"),
-    linear-gradient(45deg, #001d18, #013026 );
+    linear-gradient(45deg,#161516, #363536  );
 }
-
+/*footer section*/
+.footer-container{
+    background-color: rgb(54, 52, 53);
+    padding: 50px;
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+.footer-img{
+    width: 60px;
+}
